@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <h1>5VP-Murillo Figueroa Carlos Andres</h1>
+    <title>Examen Ciencias Naturales</title>
+    <style>
+        html {
+		    min-height: 100%;
+		    position: relative;
+		}
+		body {
+		    margin: 0;
+		    margin-bottom: 40px;
+		}
+        .title{
+            width: 100%; height: 60px;
+            text-align: center;
+            background: rgb(0, 214, 54);
+            font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+            font-size: xx-large;
+            border-bottom: solid;
+        }
+        .contenido{
+            padding: 8rem;
+            padding-top: 3rem;
+            padding-bottom: 1rem;
+            font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+            font-size: medium;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="title">
+        Examen Ciencias Naturales
+    </div>
+    <div class="contenido">
+        <form action="examen.php" method="POST">
+            <span>1-Un</span>
+            <input type="text" name="pregunta-1" required>
+            <span>es el conjunto de especies de un área determinada que interactúan entre ellas y con su ambiente abiótico.</span>
+            <br><br>
+            <span>2-La</span>
+            <input type="text" name="pregunta-2" required>
+            <span>es un conjunto de cosas que existen en el mundo o que se producen o modifican sin intervención del ser humano.</span>
+            <br><br>
+            <span>3-La</span>
+            <input type="text" name="pregunta-3" required>
+            <span>es la diversidad de especies vegetales y animales que viven en un espacio determinado.</span>
+            <br><br>
+            <span><b>4-¿Qué es un factor abiótico?</b></span><br><br>
+            <input type="radio" name="pregunta-4" value="1">&nbsp;<span>Son elementos de la naturaleza que tienen vida.</span><br>
+            <input type="radio" name="pregunta-4" value="2">&nbsp;<span>Son químicos fundamentales del ecosistema.</span><br>
+            <input type="radio" name="pregunta-4" value="3">&nbsp;<span>Son elementos de la naturaleza que no tienen vida.</span><br>
+            <input type="radio" name="pregunta-4" value="4" required>&nbsp;<span>Son las especies que habitan en un ecosistema.</span><br>
+            <br>
+            <span><b>5-¿Qué es un factor biótico?</b></span><br><br>
+            <input type="radio" name="pregunta-5" value="1" >&nbsp;<span>Son los gases que generan las fábricas.</span><br>
+            <input type="radio" name="pregunta-5" value="2" >&nbsp;<span>Son elementos de la naturaleza que tienen vida.</span><br>
+            <input type="radio" name="pregunta-5" value="3" >&nbsp;<span>Son los cambios de clima en un ecosistema.</span><br>
+            <input type="radio" name="pregunta-5" value="4" required>&nbsp;<span>Son elementos de la naturaleza que no tienen vida.</span><br>
+            <br>
+            <span><b>6-¿Cuál es la causa principal de la destrucción de los ecosistemas?</b></span><br><br>
+            <input type="radio" name="pregunta-6" value="1">&nbsp;<span>Tala de arboles.</span><br>
+            <input type="radio" name="pregunta-6" value="2">&nbsp;<span>La agricultura.</span><br>
+            <input type="radio" name="pregunta-6" value="3">&nbsp;<span>La minería.</span><br>
+            <input type="radio" name="pregunta-6" value="4" required>&nbsp;<span>La sobrepesca.</span><br>
+            <br>
+            <span><b>7-Son algunas condiciones físicas para los ecosistemas</b></span><br><br>
+            <input type="checkbox" name="pregunta-7[]" value="1">&nbsp;<span>Agua</span><br>
+            <input type="checkbox" name="pregunta-7[]" value="2">&nbsp;<span>Luz</span><br>
+            <input type="checkbox" name="pregunta-7[]" value="3">&nbsp;<span>Fabricas</span><br>
+            <input type="checkbox" name="pregunta-7[]" value="4">&nbsp;<span>Temperatura</span><br>
+            <br>
+            <span><b>8-Son algunos tipos de ecosistemas</b></span><br><br>
+            <input type="checkbox" name="pregunta-8[]" value="1">&nbsp;<span>Marinos</span><br>
+            <input type="checkbox" name="pregunta-8[]" value="2">&nbsp;<span>Urbanos</span><br>
+            <input type="checkbox" name="pregunta-8[]" value="3">&nbsp;<span>Bosques</span><br>
+            <input type="checkbox" name="pregunta-8[]" value="4">&nbsp;<span>Desiertos</span><br>
+            <br>
+            <span><b>9-Son los tipos de climas que tienen los ecosistemas</b></span><br><br>
+            <input type="checkbox" name="pregunta-9[]" value="1">&nbsp;<span>Climas Cálidos</span><br>
+            <input type="checkbox" name="pregunta-9[]" value="2">&nbsp;<span>Climas Tormentosos</span><br>
+            <input type="checkbox" name="pregunta-9[]" value="3">&nbsp;<span>Climas Templados</span><br>
+            <input type="checkbox" name="pregunta-9[]" value="4">&nbsp;<span>Climas Secos</span><br>
+            <br>
+            <span><b>10-¿Quien es el hermano del hijo de mi padre?</b></span><br>
+            <input type="radio" name="pregunta-10" value="1">&nbsp;<span>Mi Hermano</span>
+            <input type="radio" name="pregunta-10" value="2">&nbsp;<span>Yo</span>
+            <input type="radio" name="pregunta-10" value="3" required>&nbsp;<span>Mi Sobrino</span>
+            <br><br>
+            <input type="submit" value="¡TERMINADO!" class="btn btn-success btn-block">
+        </form>
+    </div>
+</body>
+</html>
