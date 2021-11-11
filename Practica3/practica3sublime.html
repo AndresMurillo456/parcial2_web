@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DRegistro de cliente</title>
+</head>
+<body>
+	<h1>Formulario de registros clientes</h1><hr>
+
+	<label for="nombre">Nombre del cliente</label><br>
+	
+	<form method="GET" action="practica3sublime.php">
+
+	
+	<input type="text" name="nombre" placeholder="nombre del cliente" required>
+
+	<label for="ddad">Edad</label>
+	<input type="number" name="edad" placeholder="Edad"><br><br>
+
+	<label for="email" name="correo" required></label>Correo Electronico<br>
+	<input type="email" name="correo" required placeholder="correo"><br><br>
+
+	<label for="fecha_nacimiento">Fecha de nacimiento</label><br>
+	<input type="date" name="fecha_nacimiento" required><br><br>
+
+	<label for="sexo">Sexo</label><br>
+	Femenino: <input type="radio" name="sexo" value="Femenino"><br>
+	Masculino: <input type="radio" name="sexo" value="Masculino"><br><br>
+
+	<label for="areas">Areas de preferencia:</label><br>
+	<input type="checkbox"name="areas[]"value="Tecnologia">Tecnologia<br>
+	<input type="checkbox"name="areas[]"value="Belleza"> Belleza <br>
+	<input type="checkbox"name="areas[]"value="Automoviles">Automoviles<br>
+	<input type="checkbox"name="areas[]"value="Salud">Salud<br><br>
+
+	<input type="submit" name="Enviar"><br>
+
+	</form>
+</body> 
+</body>
+</html>
